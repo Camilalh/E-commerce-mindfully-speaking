@@ -1,12 +1,11 @@
 import "./App.css";
-import { Main } from "./pages/main";
+import NavBar from "./components/navBar";
 
 function App() {
     return (
-        //aca traigo el main que cree en index.jsx
-        <div className="App">
-            <Main></Main>
-        </div>
+        <>
+            <NavBar></NavBar>
+        </>
     );
 }
 
