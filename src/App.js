@@ -1,17 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Typography } from "@mui/material";
+import { Main } from "./pages/main";
 
 function App() {
     return (
+        //aca traigo el main que cree en index.jsx
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <Typography>Hola, esto es una una nueva aplicación en React Js</Typography>
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    Learn React
-                </a>
-            </header>
+            <Main></Main>
         </div>
     );
 }
