@@ -1,8 +1,7 @@
-import { AccessAlarm, ThreeDRotation } from "@mui/icons-material";
 const NavBar = () => {
     return (
         <div>
-            <div style={{ backgroundColor: "grey", fontFamily: "system-ui" }}>
+            <div>
                 <h1>Mindfully Speaking</h1>
             </div>
         </div>
